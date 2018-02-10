@@ -2635,7 +2635,8 @@ p.nominalBounds = new cjs.Rectangle(-310.1,0,1505.9,590);
 		
 		var isCorrct = []; //מערך ששומר את הבחירות הנכונות שנעשו
 		
-		
+		createjs.Sound.registerSound("https://efrateyal.github.io/Animate/sounds/dolphin_sound_effect.mp3", "correct"); //צפצוף הדולפין במשוב חיובי
+
 		var gameID = -1; //סוג המשחק
 		var shellNum = 1; //מה שמוצג על הצדפה
 		var forcombo; //קופסת בחירת משחק
